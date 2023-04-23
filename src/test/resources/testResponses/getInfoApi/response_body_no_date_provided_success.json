@@ -1,0 +1,19 @@
+{
+  "policyId": "CU423DF89",
+  "requestDate": "%s",
+  "insuredPersons": [
+    {
+      "id": 1,
+      "firstName": "Jane",
+      "secondName": "Johnson",
+      "premium": 12.9
+    },
+    {
+      "id": 2,
+      "firstName": "Jack",
+      "secondName": "Doe",
+      "premium": 15.9
+    }
+  ],
+  "totalPremium": 28.8
+}

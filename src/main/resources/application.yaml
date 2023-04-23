@@ -1,0 +1,17 @@
+mongodb:
+  database-name: policym_anagement
+  connection-string-value: mongodb://admin:password@localhost:27017/?authSource=admin
+  quotes-collection: policy_data
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      enabled: true
+      path: /healthcheck
+  health:
+    diskspace:
+      threshold: 10MB
